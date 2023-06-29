@@ -1,7 +1,9 @@
 package com.wildcodeschool.wildandwizard.entity;
 
-import java.sql.Date;
+import org.springframework.stereotype.Repository;
 
+import java.sql.Date;
+@Repository
 public class Wizard {
 
     private Long id;
